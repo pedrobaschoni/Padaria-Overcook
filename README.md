@@ -13,6 +13,7 @@ Para garantir o funcionamento correto do projeto, siga as instruções abaixo:
 2. No arquivo fonte, localizado na pasta `src/META-INF`, substitua as seguintes linhas no arquivo `persistence.xml` com suas credenciais de banco de dados:
 
    `<property name="javax.persistence.jdbc.user" value="seu_usuario"/>`
+   
    `<property name="javax.persistence.jdbc.password" value="sua_senha"/>`
 
 Antes de executar o projeto, faça um `Clean and Build`
